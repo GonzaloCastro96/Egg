@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package newpackage;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Gonzalo
+ */
+public class Ejercicio20 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        /*
+        Realizar un programa que lea 4 números (comprendidos entre 1 y 20) e imprima el
+        número ingresado seguido de tantos asteriscos como indique su valor
+        */
+        int i, num,j;
+        Scanner leer= new Scanner(System.in);
+        for (i=1; i<=4; i++){
+            num=leer.nextInt();
+            for(j=1; j<=num;j++){
+                System.out.print("*");
+            }
+        System.out.println("");
+        }
+    }
+    
+}
