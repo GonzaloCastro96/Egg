@@ -1,0 +1,9 @@
+table{
+    width: 100%;
+    border: 2px solid salmon;
+}
+th, td{
+    width: 25%;
+    text-align: left;
+    border: 2px solid darkcyan;
+}

@@ -1,0 +1,11 @@
+/*link sin visitar*/
+a:link{
+    color: #CC0000;
+}
+a:visited{
+    color: #CCC;
+}
+a:hover{
+    font:#CC0000;
+    color: #FFF
+}
